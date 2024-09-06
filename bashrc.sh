@@ -21,7 +21,7 @@ module load nwchem
 alias lt='ls -lt'
 alias cdh='cd <$HOME>' 
 alias cdsg='cd <$SCRATCH>'
-alias cdsynth='cd <$WORK>'
+alias cdw='cd <$WORK>'
 alias sq='squeue -u <username>'
 alias qprio='sprio -S -Y -l | less -N'
 alias inode='salloc --time=30 --account=<handle> --nodes=2'
